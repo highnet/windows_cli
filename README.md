@@ -43,7 +43,7 @@ This script is designed to find and terminate any lingering processes related to
     .\scripts\kill-npm-dev-processes.bat
     ```
   - Alternatively, you can use the integrated VS Code task:
-    1.  Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS).
+    1.  Open the Command Palette (Ctrl+Shift+P).
     2.  Type "Tasks: Run Task" and select it.
     3.  Choose the "Kill npm dev Processes" task.
 
