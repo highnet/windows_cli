@@ -1,7 +1,22 @@
 // filepath: c:\Users\telleriajo\code\windows_cli\.vscode\tasks.json
 {
   "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "folderPath",
+      "type": "promptString",
+      "description": "Enter the path for the new project folder",
+      "default": "C:\\temp\\newProject"
+    }
+  ],
   "tasks": [
+    {
+      "args": ["${input:folderPath}"],
+      "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\create-project-files.bat",
+      "label": "Create Project Files",
+      "problemMatcher": ["$msCompile"],
+      "type": "shell"
+    },
     {
       "label": "Kill npm dev Processes",
       "type": "shell",

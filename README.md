@@ -32,6 +32,21 @@ These instructions will help you get the utilities set up and ready to use on yo
 
 This project includes the following utility scripts:
 
+### Create Project Files
+
+This script automates the creation of a basic project directory structure and common boilerplate files. It takes a folder path as an argument and creates the specified folder along with `.gitignore`, `CODE_OF_CONDUCT.md`, `LICENCE.md`, and `README.md` files within it.
+
+- **Script Location**: `scripts\\create-project-files.bat`
+- **How to Run**:
+  - You can directly execute the `.bat` file from your terminal, providing the desired folder path:
+    ```powershell
+    .\\scripts\\create-project-files.bat "C:\\path\\to\\your\\new\\project"
+    ```
+  - Alternatively, you can use the integrated VS Code task:
+    1.  Open the Command Palette (Ctrl+Shift+P).
+    2.  Type "Tasks: Run Task" and select it.
+    3.  Choose the "Create Project Files" task. You will be prompted to enter the folder path.
+
 ### Kill npm dev Processes
 
 This script is designed to find and terminate any lingering processes related to `npm run dev` or similar Node.js development server commands. This can be useful if a previous development server did not shut down cleanly.
