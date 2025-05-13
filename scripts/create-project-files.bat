@@ -22,14 +22,12 @@ if not exist "%folderPath%" (
 
 REM Create the files
 echo Creating files in %folderPath%...
-type nul > "%folderPath%\.gitignore"
 type nul > "%folderPath%\CODE_OF_CONDUCT.md"
 type nul > "%folderPath%\LICENCE.md"
 type nul > "%folderPath%\README.md"
 
 echo.
 echo Files created successfully in %folderPath%:
-echo   - .gitignore
 echo   - CODE_OF_CONDUCT.md
 echo   - LICENCE.md
 echo   - README.md
