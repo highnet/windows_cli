@@ -1,0 +1,20 @@
+// filepath: c:\Users\telleriajo\code\windows_cli\.vscode\tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Kill npm dev Processes",
+      "type": "shell",
+      "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\kill-npm-dev-processes.bat",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    }
+  ]
+}
