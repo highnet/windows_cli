@@ -77,6 +77,36 @@ This script uses `winget` to update all installed packages on your system.
     2.  Type "Tasks: Run Task" and select it.
     3.  Choose the "Update All Packages" task.
 
+### Set Node.js Version
+
+This script installs and sets a specific Node.js version using NVM (Node Version Manager).
+
+- **Script Location**: `scripts\\set-node-version.bat`
+- **How to Run**:
+  - You can directly execute the `.bat` file from your terminal, providing the desired Node.js version:
+    ```powershell
+    .\\scripts\\set-node-version.bat "18.17.0"
+    ```
+  - Alternatively, you can use the integrated VS Code task:
+    1.  Open the Command Palette (Ctrl+Shift+P).
+    2.  Type "Tasks: Run Task" and select it.
+    3.  Choose the "Set Node.js Version" task. You will be prompted to enter the Node.js version.
+
+### Install Node.js Version
+
+This script installs a specific Node.js version using NVM (Node Version Manager).
+
+- **Script Location**: `scripts\\install-node-version.bat`
+- **How to Run**:
+  - You can directly execute the `.bat` file from your terminal, providing the desired Node.js version:
+    ```powershell
+    .\\scripts\\install-node-version.bat "20.10.0"
+    ```
+  - Alternatively, you can use the integrated VS Code task:
+    1.  Open the Command Palette (Ctrl+Shift+P).
+    2.  Type "Tasks: Run Task" and select it.
+    3.  Choose the "Install Node.js Version" task. You will be prompted to enter the Node.js version.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENCE.md](LICENCE.md) file for details.

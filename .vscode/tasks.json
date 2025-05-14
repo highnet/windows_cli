@@ -7,6 +7,12 @@
       "type": "promptString",
       "description": "Enter the path for the new project folder",
       "default": "C:\\temp\\newProject"
+    },
+    {
+      "id": "nodeVersion",
+      "type": "promptString",
+      "description": "Enter the Node.js version to set (e.g., 18.17.0)",
+      "default": ""
     }
   ],
   "tasks": [
@@ -35,6 +41,28 @@
       "label": "Update All Packages",
       "type": "shell",
       "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\update-all-packages.bat",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Install Node Version",
+      "type": "shell",
+      "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\install-node-version.bat",
+      "args": ["${input:nodeVersion}"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Set Node Version",
+      "type": "shell",
+      "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\set-node-version.bat",
+      "args": ["${input:nodeVersion}"],
       "problemMatcher": [],
       "presentation": {
         "reveal": "always",
