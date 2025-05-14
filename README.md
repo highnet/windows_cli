@@ -36,11 +36,11 @@ This project includes the following utility scripts:
 
 This script automates the creation of a basic project directory structure and common boilerplate files. It takes a folder path as an argument and creates the specified folder along with `CODE_OF_CONDUCT.md`, `LICENCE.md`, `CONTRIBUTING.md`, `SECURITY.md` and `README.md` files within it.
 
-- **Script Location**: `scripts\\create-project-files.bat`
+- **Script Location**: `scripts\create-project-files.bat`
 - **How to Run**:
   - You can directly execute the `.bat` file from your terminal, providing the desired folder path:
     ```powershell
-    .\\scripts\\create-project-files.bat "C:\\path\\to\\your\\new\\project"
+    .\scripts\create-project-files.bat "C:\path\to\your\new\project"
     ```
   - Alternatively, you can use the integrated VS Code task:
     1.  Open the Command Palette (Ctrl+Shift+P).
