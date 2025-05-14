@@ -30,6 +30,16 @@
         "reveal": "always",
         "panel": "new"
       }
+    },
+    {
+      "label": "Update All Packages",
+      "type": "shell",
+      "command": "c:\\Users\\telleriajo\\code\\windows_cli\\scripts\\update-all-packages.bat",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
     }
   ]
 }

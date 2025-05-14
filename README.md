@@ -62,6 +62,21 @@ This script is designed to find and terminate any lingering processes related to
     2.  Type "Tasks: Run Task" and select it.
     3.  Choose the "Kill npm dev Processes" task.
 
+### Update All Packages
+
+This script uses `winget` to update all installed packages on your system.
+
+- **Script Location**: `scripts\\update-all-packages.bat`
+- **How to Run**:
+  - You can directly execute the `.bat` file from your terminal:
+    ```powershell
+    .\\scripts\\update-all-packages.bat
+    ```
+  - Alternatively, you can use the integrated VS Code task:
+    1.  Open the Command Palette (Ctrl+Shift+P).
+    2.  Type "Tasks: Run Task" and select it.
+    3.  Choose the "Update All Packages" task.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENCE.md](LICENCE.md) file for details.
