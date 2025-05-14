@@ -25,11 +25,15 @@ echo Creating files in %folderPath%...
 type nul > "%folderPath%\CODE_OF_CONDUCT.md"
 type nul > "%folderPath%\LICENCE.md"
 type nul > "%folderPath%\README.md"
+type nul > "%folderPath%\CONTRIBUTING.md"
+type nul > "%folderPath%\SECURITY.md"
 
 echo.
 echo Files created successfully in %folderPath%:
 echo   - CODE_OF_CONDUCT.md
 echo   - LICENCE.md
 echo   - README.md
+echo   - CONTRIBUTING.md
+echo   - SECURITY.md
 
 endlocal

@@ -34,7 +34,7 @@ This project includes the following utility scripts:
 
 ### Create Project Files
 
-This script automates the creation of a basic project directory structure and common boilerplate files. It takes a folder path as an argument and creates the specified folder along with `CODE_OF_CONDUCT.md`, `LICENCE.md`, and `README.md` files within it.
+This script automates the creation of a basic project directory structure and common boilerplate files. It takes a folder path as an argument and creates the specified folder along with `CODE_OF_CONDUCT.md`, `LICENCE.md`, `CONTRIBUTING.md`, `SECURITY.md` and `README.md` files within it.
 
 - **Script Location**: `scripts\\create-project-files.bat`
 - **How to Run**:
